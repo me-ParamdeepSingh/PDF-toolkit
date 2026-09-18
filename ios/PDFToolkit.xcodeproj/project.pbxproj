@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012C00000100000001 /* PDFToolkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000012C00000100000001 /* PDFToolkitApp.swift */; };
+		A10000022C00000100000001 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000022C00000100000001 /* Colors.swift */; };
+		A10000032C00000100000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000032C00000100000001 /* Theme.swift */; };
+		A10000042C00000100000001 /* ToolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000042C00000100000001 /* ToolType.swift */; };
+		A10000052C00000100000001 /* RecentFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000052C00000100000001 /* RecentFile.swift */; };
+		A10000062C00000100000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000062C00000100000001 /* Models.swift */; };
+		A10000072C00000100000001 /* PDFEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000072C00000100000001 /* PDFEngine.swift */; };
+		A10000082C00000100000001 /* RecentFilesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000082C00000100000001 /* RecentFilesStore.swift */; };
+		A10000092C00000100000001 /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000092C00000100000001 /* AdMobManager.swift */; };
+		A100000A2C00000100000001 /* ToolViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000A2C00000100000001 /* ToolViewModels.swift */; };
+		A100000B2C00000100000001 /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000B2C00000100000001 /* CommonViews.swift */; };
+		A100000C2C00000100000001 /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000C2C00000100000001 /* HomeViews.swift */; };
+		A100000D2C00000100000001 /* ToolViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000D2C00000100000001 /* ToolViews.swift */; };
+		A100000E2C00000100000001 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000E2C00000100000001 /* ResultView.swift */; };
+		A100000F2C00000100000001 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000F2C00000100000001 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C10000012C00000100000001 /* PDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000002C00000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000012C00000100000001 /* PDFToolkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFToolkitApp.swift; sourceTree = "<group>"; };
+		B10000022C00000100000001 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B10000032C00000100000001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10000042C00000100000001 /* ToolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolType.swift; sourceTree = "<group>"; };
+		B10000052C00000100000001 /* RecentFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFile.swift; sourceTree = "<group>"; };
+		B10000062C00000100000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000072C00000100000001 /* PDFEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEngine.swift; sourceTree = "<group>"; };
+		B10000082C00000100000001 /* RecentFilesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFilesStore.swift; sourceTree = "<group>"; };
+		B10000092C00000100000001 /* AdMobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		B100000A2C00000100000001 /* ToolViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewModels.swift; sourceTree = "<group>"; };
+		B100000B2C00000100000001 /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		B100000C2C00000100000001 /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+		B100000D2C00000100000001 /* ToolViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViews.swift; sourceTree = "<group>"; };
+		B100000E2C00000100000001 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B100000F2C00000100000001 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000012C00000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000012C00000100000001 = {
+			isa = PBXGroup;
+			children = (
+				E10000022C00000100000001 /* PDFToolkit */,
+				E10000032C00000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10000022C00000100000001 /* PDFToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				B10000002C00000100000001 /* Info.plist */,
+				B10000012C00000100000001 /* PDFToolkitApp.swift */,
+				E10000042C00000100000001 /* Theme */,
+				E10000052C00000100000001 /* Models */,
+				E10000062C00000100000001 /* Services */,
+				E10000072C00000100000001 /* ViewModels */,
+				E10000082C00000100000001 /* Views */,
+			);
+			path = PDFToolkit;
+			sourceTree = "<group>";
+		};
+		E10000032C00000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10000012C00000100000001 /* PDFToolkit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10000042C00000100000001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B10000022C00000100000001 /* Colors.swift */,
+				B10000032C00000100000001 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E10000052C00000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000042C00000100000001 /* ToolType.swift */,
+				B10000052C00000100000001 /* RecentFile.swift */,
+				B10000062C00000100000001 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10000062C00000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000072C00000100000001 /* PDFEngine.swift */,
+				B10000082C00000100000001 /* RecentFilesStore.swift */,
+				B10000092C00000100000001 /* AdMobManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10000072C00000100000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B100000A2C00000100000001 /* ToolViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E10000082C00000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B100000F2C00000100000001 /* HomeScreen.swift */,
+				B100000C2C00000100000001 /* HomeViews.swift */,
+				B100000D2C00000100000001 /* ToolViews.swift */,
+				B100000B2C00000100000001 /* CommonViews.swift */,
+				B100000E2C00000100000001 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000012C00000100000001 /* PDFToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000022C00000100000001 /* Build configuration list for PBXNativeTarget "PDFToolkit" */;
+			buildPhases = (
+				F10000022C00000100000001 /* Sources */,
+				D10000012C00000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFToolkit;
+			productName = PDFToolkit;
+			productReference = C10000012C00000100000001 /* PDFToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010000012C00000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F10000012C00000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G10000012C00000100000001 /* Build configuration list for PBXProject "PDFToolkit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10000012C00000100000001;
+			productRefGroup = E10000032C00000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10000012C00000100000001 /* PDFToolkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000022C00000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012C00000100000001 /* PDFToolkitApp.swift in Sources */,
+				A10000022C00000100000001 /* Colors.swift in Sources */,
+				A10000032C00000100000001 /* Theme.swift in Sources */,
+				A10000042C00000100000001 /* ToolType.swift in Sources */,
+				A10000052C00000100000001 /* RecentFile.swift in Sources */,
+				A10000062C00000100000001 /* Models.swift in Sources */,
+				A10000072C00000100000001 /* PDFEngine.swift in Sources */,
+				A10000082C00000100000001 /* RecentFilesStore.swift in Sources */,
+				A10000092C00000100000001 /* AdMobManager.swift in Sources */,
+				A100000A2C00000100000001 /* ToolViewModels.swift in Sources */,
+				A100000B2C00000100000001 /* CommonViews.swift in Sources */,
+				A100000C2C00000100000001 /* HomeViews.swift in Sources */,
+				A100000D2C00000100000001 /* ToolViews.swift in Sources */,
+				A100000E2C00000100000001 /* ResultView.swift in Sources */,
+				A100000F2C00000100000001 /* HomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		H10000012C00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		H10000022C00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		H10000032C00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PDFToolkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdftoolkit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		H10000042C00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PDFToolkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdftoolkit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10000012C00000100000001 /* Build configuration list for PBXProject "PDFToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000012C00000100000001 /* Debug */,
+				H10000022C00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000022C00000100000001 /* Build configuration list for PBXNativeTarget "PDFToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000032C00000100000001 /* Debug */,
+				H10000042C00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 010000012C00000100000001 /* Project object */;
+}
