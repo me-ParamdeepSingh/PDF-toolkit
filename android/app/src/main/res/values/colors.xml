@@ -9,4 +9,5 @@
     <color name="text_primary_dark">#F9FAFB</color>
     <color name="text_muted_light">#6B7280</color>
     <color name="text_muted_dark">#9CA3AF</color>
+    <color name="ic_launcher_background">#4F46E5</color>
 </resources>
