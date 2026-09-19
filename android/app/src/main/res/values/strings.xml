@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">PDF Toolkit</string>
     <string name="app_subtitle">Merge, Split &amp; Compress</string>
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_app_id">ca-app-pub-3973433768299897~4734380486</string>
     <string name="admob_banner_id">ca-app-pub-3973433768299897/5758942682</string>
     <string name="admob_interstitial_id">ca-app-pub-3973433768299897/5366217136</string>
 </resources>

@@ -29,7 +29,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>PDF Toolkit needs camera access to capture documents directly into PDF.</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-3973433768299897~4734380486</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
