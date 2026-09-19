@@ -38,7 +38,7 @@ fun HomeBannerAd(
             factory = { context ->
                 AdView(context).apply {
                     setAdSize(AdSize.BANNER)
-                    adUnitId = AdMobManager.TEST_BANNER_AD_ID
+                    adUnitId = context.getString(com.pdftoolkit.app.R.string.admob_banner_id)
                     loadAd(AdRequest.Builder().build())
                 }
             }

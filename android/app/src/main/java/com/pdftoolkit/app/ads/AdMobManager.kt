@@ -29,10 +29,11 @@ class AdMobManager(private val context: Context) {
         if (interstitialAd != null || isLoading) return
         isLoading = true
 
+        val adUnitId = context.getString(com.pdftoolkit.app.R.string.admob_interstitial_id)
         val adRequest = AdRequest.Builder().build()
         InterstitialAd.load(
             context,
-            TEST_INTERSTITIAL_AD_ID,
+            adUnitId,
             adRequest,
             object : InterstitialAdLoadCallback() {
                 override fun onAdLoaded(ad: InterstitialAd) {
