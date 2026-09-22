@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.pdftoolkit.app"
+    namespace = "com.paramdeep.pdftoolkit"
     compileSdk = 34
 
     defaultConfig {
