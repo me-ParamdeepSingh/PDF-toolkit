@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.pdftoolkit.app"
+        applicationId = "com.paramdeep.pdftoolkit"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
